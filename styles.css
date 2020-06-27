@@ -16,7 +16,25 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 
-body{}
+body{
+	max-width: 1920px;
+	margin: 0px auto;
+}
+@media (max-width: 1920px){
+	.conteiner {
+		max-width: 992px;
+	}
+}
+@media (max-width: 992px){
+	.conteiner {
+		max-width: 768px;
+	}
+}
+@media (max-width: 576px){
+	.conteiner {
+		max-width: none;
+	}
+}
 header{
 	display: block;
 	position: absolute;
@@ -85,7 +103,7 @@ header{
 }
 
 .wrapper {
-	width: 140%;
+	width: 1920px;
 	min-height: 100%;
 	overflow: hidden;
 
@@ -102,7 +120,7 @@ header{
 	display: flex;
 }
 .conteiner{
-	max-width: 100%;
+	max-width: 140%;
 	margin: 0px auto;
 }
 .head__row {
@@ -291,7 +309,7 @@ a{
 
 .about {
 	background: #333333;
-	width: 140%;
+	width: 1920px;
 	min-height: 100%;
 	overflow: hidden;
 }
@@ -389,7 +407,7 @@ a{
 
 .performances {
 	background: #333333;
-	width: 140%;
+	width: 1920px;
 	min-height: 140%;
 	overflow: hidden;
 	font-family: Open Sans Condensed;
@@ -585,7 +603,7 @@ a{
 
 .best {
 	background: #333333;
-	width: 140%;
+	width: 1920px;
 	min-height: 140%;
 	overflow: hidden;
 	font-family: Open Sans Condensed;
@@ -641,7 +659,7 @@ a{
 
 .partners {
 	background: #333333;
-	width: 140%;
+	width: 1920px;
 	min-height: 70%;
 	overflow: hidden;
 }
@@ -715,7 +733,7 @@ a{
 
 .patron {
 	background: #333333;
-	width: 140%;
+	width: 1920px;
 	min-height: 80%;
 	overflow: hidden;
 	font-family: Open Sans Condensed;
@@ -945,7 +963,7 @@ textarea{
 
 .footer {
 	background: #333333;
-	width: 140%;
+	width: 1920px;
 	min-height: 30%;
 	overflow: hidden;
 	font-family: Open Sans Condensed;
